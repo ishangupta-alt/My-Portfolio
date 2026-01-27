@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms In HTML</title>
+</head>
+<body>
+    <h2>Forms in HTML</h2>
+    <form action="resume.html">
+        <label for="">First name:</label>
+        <input type="text" minlength="2" maxlength="12" placeholder="Enter" required>
+        
+        <label for="">Middle name:</label>
+        <input type="text" minlength="1" maxlength="10" placeholder="Enter">
+        
+        <label for="">Last name:</label>
+        <input type="text" minlength="1" maxlength="10" placeholder="Enter">
+
+        <br>
+        <br>
+        <label for="">Email ID:</label>
+        <input type="email" required>
+
+        <br>
+        <br>
+        <label for="">Age:</label>
+        <input type="number" required>
+
+        <br>
+        <br>
+        <label for="">Date of Joining:</label>
+        <input type="date" required>
+
+        <br>
+        <br>
+        <label for="">Password:</label>
+        <input type="password" required>
+        <br>
+        <br>
+        <hr>
+        <h2>Enter Your Shirt Size:</h2>
+        <input type="radio" name="ShirtSize" id="Small Size"><label for="Small Size">Small Size</label>
+        <input type="radio" name="ShirtSize" id="Medium Size" ><label for="Medium Size">Medium Size</label>
+        <input type="radio" name="ShirtSize" id="Large Size"><label for="Large Size">Large Size</label>
+        <input type="radio" name="ShirtSize" id="X-Large Size"><label for="X-Large Size">X-Large Size</label>
+        <input type="radio" name="ShirtSize" id="XX-Large Size"><label for="XX-Large Size">XX-Large Size</label>
+        <input type="radio" name="ShirtSize" id="XXX-Large Size"><label for="XXX-Large Size">XXX-Large Size</label>
+        <br>
+        <br>
+        <h3>Select Your Own Language</h3>
+        <input type="checkbox" name="Language" id="English"><label for="English">English</label>
+        <input type="checkbox" name="Language" id="Hindi"><label for="Hindi">Hindi</label>
+        <input type="checkbox" name="Language" id="Tamil"><label for="Tamil">Tamil</label>
+        <input type="checkbox" name="Language" id="Telgu"><label for="Telgu">Telgu</label>
+        <input type="checkbox" name="Language" id="Kanada"><label for="Kanada">Kanada</label>
+        <br>
+        <br>
+        <label for="clr">Please select your colour</label>
+        <input type="color">
+        <br>
+        <br>
+        <label for="paymentOption">Please select your <b>payment option</b></label>
+        <select name="payment" id="paymentOption">
+            <option value="gPay">gPay</option>
+            <option value="PhonePe">PhonePe</option>
+            <option value="Bank Transfer">Bank Transfer</option>
+            <option value="Credit Card">Credit Card</option>
+            <option value="Cash On Delivery">Cash On Delivery</option>
+        </select>
+        <br>
+        <br>
+        <h3>Feedback</h3>
+        <label for="">Now Give us your valuable <b>feedback</b></label>
+        <textarea name="cmt" id="cmts" rows="14" cols="105" placeholder="please enter your comment here..."></textarea>
+        <br>
+        <br>
+        <input type="Reset">
+        <input type="submit">
+    </form> 
+</body>
+</html>
